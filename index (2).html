@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="heading">
+        TIC-TAC-TOE
+    </div>
+    <div class="card-1"><p><b>About:</b><br><br>
+        Tic-Tac-Toe is a classic two-player board game that is played on a 3x3 grid.<br><br>  
+        Objective: The main objective of the game is to form a line of three of your own symbols (either X or O) horizontally, vertically, or diagonally on the game board.<br><br>
+        Player Turns: The game is played by two players, typically denoted as X and O, who take turns marking the spaces on the grid.<br><br>
+        Grid Structure: The game board consists of a 3x3 grid, providing a total of 9 spaces for the players to place their symbols.<br><br>
+        Symbol Identification: One player uses the "X" symbol, and the other player uses the "O" symbol. Players take turns placing their symbol in an empty space on the grid.<br><br>
+        Quick Gameplay: The simplicity and quick nature of the game make it accessible for players of all ages.<br><br></p>
+    </div>
+    <div class="card-2"><p><b>How to Play:</b> <br><br>
+        Tic-Tac-Toe is a two-player board game played on a 3x3 grid. <br><br>
+        The objective is to form a line of three of your symbols (X or O) horizontally, vertically, or diagonally. <br><br>
+        Players take turns marking empty spaces with their respective symbols. <br><br>
+        One player uses "X," and the other uses "O." <br><br>
+        The game starts with the player using "X," and turns alternate. <br><br>
+        Once a space is marked, it cannot be occupied by the opposing player. <br><br>
+        The game ends when a player successfully aligns three of their symbols in a row. <br><br>
+        If the entire grid is filled with no winner, the game is a draw. <br><br></p>
+    </div>
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text></div><br>
+        <button id="restartButton">Restart</button>
+    </div>
+</body>
+</html>
